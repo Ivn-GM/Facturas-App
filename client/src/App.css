@@ -1,0 +1,211 @@
+html {
+  overflow: hidden;
+}
+
+@page {
+  size: auto;   /* auto is the initial value */
+  margin-bottom: 0;  /* this affects the margin in the printer settings */
+}
+
+@media print {
+  #printPageButton {
+    display: none;
+  }
+}
+
+.box>h1, .login-box>h1 {
+  font-size: 3em;
+  border-bottom: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+
+.mantine-jh0x0t {
+  min-height: 0vh;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.mantine-1vcijho {
+  bottom: 1;
+  padding: 25px 25px 35px 25px;
+  height: 95%;
+}
+
+td {
+  padding: 7px 10px;
+}
+
+.burger {
+  padding: 30px;
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  grid-template-rows: 10px 1fr;
+}
+
+.box {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #313338;
+  height: 87vh;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #c8caca56;
+}
+
+@media (max-width: 600px) {
+  .box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #313338;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #c8caca56;
+  }
+}
+
+.login-grid {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  grid-template-columns: 1.5fr 3fr 1.5fr;
+  grid-template-rows: 10px 1fr;
+}
+
+@media (max-width: 900px) {
+  .login-grid {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    grid-template-columns: 0% 100% 0%;
+    grid-template-rows: 10px 1fr;
+  }
+}
+
+.login-box {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #313338;
+  height: 65vh;
+  width: 50%;
+  border-radius: 3px;
+  border: 1px solid #c8caca56;
+}
+
+@media (max-width: 500px) {
+  .login-box {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #313338;
+    height: 65vh;
+    width: 80%;
+    border-radius: 3px;
+    border: 1px solid #c8caca56;
+  }
+}
+
+@media (max-width: 770px) {
+  .mantine-1vcijho {
+    width: 100%;
+    height: 95%;
+    align-items: center;
+  }
+}
+
+.mantine-mntdsw, .mantine-1dlv4gz {
+  height: 25px;
+}
+
+@media (max-width: 1802px) {
+  #td-botones {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.form-invoice {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  height: 50%;
+  justify-items: center;
+  align-items: center;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  gap: 1em;
+}
+
+.form-invoice>input, .form-client>input {
+  width: 80%;
+  border-radius: 5px;
+  background-color: #ffffff81;
+  text-align: center;
+}
+
+.form-client>input {
+  align-self: flex-start;
+}
+
+#login-form>input {
+  width: 50%;
+  border-radius: 5px;
+  background-color: #ffffff81;
+  text-align: center;  
+}
+
+.form-invoice>Button {
+  grid-column: 3/4;
+  grid-row: 10/11;
+}
+
+.form-client>Button {
+  grid-column: 3/4;
+  grid-row: 7/8;
+}
+
+.form-client {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  height: 60%;
+  justify-items: center;
+  align-items: center;
+}
+
+#info>h5, #info-flex>h5 {
+  text-decoration: underline;
+  margin: 0px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+#info>p, #info-flex>p {
+  color: white;
+  margin: 0px;
+  margin-bottom: 25px;
+  font-size: 13.28px;
+  font-weight: bold;  
+}
+
+#info-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
